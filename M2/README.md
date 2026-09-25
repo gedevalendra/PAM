@@ -1,7 +1,7 @@
 # Pengembangan Aplikasi Mobile - News Feed Simulator
 
 -  **Nama  :** Gede Valendra
--  **NIM     :** ```124140142```
+-  **NIM     :** 124140142
 -  **Kelas    :** Pengembangan APlikasi Mobile RB
 
 ## Fitur yang Diimplementasikan
