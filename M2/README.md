@@ -1,35 +1,32 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop (JVM).
+# Pengembangan Aplikasi Mobile - News Feed Simulator
 
-* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+-  **Nama  :** Gede Valendra
+-  **NIM     :** ```124140142```
+-  **Kelas    :** Pengembangan APlikasi Mobile RB
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+## Fitur yang Diimplementasikan
 
-### Running the apps
+1. **Flow Simulasi Berita :** Menggunakan `flow {}` dan `delay(2000)` untuk menghasilkan data berita baru secara *asynchronous* setiap 2 detik.
+2. **Filter Kategori:** Menggunakan operator `.filter { .. }` untuk menyaring berita berdasarkan kategori yang dipilih pengguna (Semua, Politik, Kesehatan, Pendidikan, Ekonomi).
+3. **Transformasi Data:** Menggunakan `.map { .. }` (atau diintegrasikan dengan logika UI) untuk mengubah format mentah menjadi objek UI yang rapi.
+4. **StateFlow Counter:** Menggunakan `MutableStateFlow` untuk melacak, menyimpan, dan memperbarui jumlah berita yang sudah dibaca secara *real-time*.
+5. **Coroutines Async Detail:** Menggunakan `coroutineScope.launch` dan fungsi `suspend` dengan `delay(1200)` untuk mengambil detail isi teks berita..
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+## Prasyarat (Prerequisites)
 
-- Android app: `./gradlew :androidApp:assembleDebug`
-- Desktop app:
-  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
-  - Standard run: `./gradlew :desktopApp:run`
-- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
+Sebelum menjalankan proyek ini, pastikan sistem Anda telah memiliki:
+* **IDE :** Android Studio.
+* **Java Development Kit :** Minimal menggunakan versi 21.
+* **Plugin :** Kotlin Multiplatform.
 
-### Running tests
+## Cara Menjalankan Proyek (Android Studio)
 
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- Desktop tests: `./gradlew :shared:jvmTest`
-- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
-
----
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+1. **Clone Repositori :** Buka terminal dan lakukan proses *clone* repositori ini ke komputer lokal Anda:
+```bash
+git clone https://github.com/gedevalendra/PAW.git
+```
+2. **Akses :** Jika muncul *pop-up* dialog keamanan yang bertanya "*Trust and Open Project?*", klik tombol **Trust Project**.
+3. **Sinkronisasi Gradle :** Perhatikan baris status di pojok kanan bawah layar. Android Studio akan otomatis mengunduh seluruh file Gradle dan dependensi Compose yang dibutuhkan. Jangan melakukan perubahan kode apa pun sampai *loading bar* selesai dan muncul tulisan *Gradle Sync Finished* atau *BUILD SUCCESSFUL*.
+4. **Periksa Versi JDK :** Untuk menghindari *error* kompatibilitas, pastikan pengaturan Java sudah tepat. Tekan **(Ctrl + Alt + S)**, masuk ke **Build, Execution, Deployment > Build Tools > Gradle**, dan pastikan **Gradle JDK** menggunakan versi **21**.
+5. **Siapkan Perangkat :** Pada kotak *dropdown* di sebelah target konfigurasi, pilih emulator (misalnya *Pixel 7 API 34*) atau *smartphone* fisik yang sudah diaktifkan mode *USB Debugging*-nya. Jika kotaknya kosong, buka panel **Device Manager** di sebelah kanan layar dan klik ikon **+** untuk membuat *Virtual Device* baru.
+6. **Jalankan Aplikasi :** Klik tombol **Play (Run)** berwarna hijau atau tekan **Shift + F10**. Tunggu proses kompilasi berjalan, dan antarmuka *News Feed Simulator* akan otomatis terbuka di layar emulator atau perangkat Anda.
