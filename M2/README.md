@@ -10,7 +10,7 @@
 2. **Filter Kategori:** Menggunakan operator `.filter { .. }` untuk menyaring berita berdasarkan kategori yang dipilih pengguna (Semua, Politik, Kesehatan, Pendidikan, Ekonomi).
 3. **Transformasi Data:** Menggunakan `.map { .. }` (atau diintegrasikan dengan logika UI) untuk mengubah format mentah menjadi objek UI yang rapi.
 4. **StateFlow Counter:** Menggunakan `MutableStateFlow` untuk melacak, menyimpan, dan memperbarui jumlah berita yang sudah dibaca secara *real-time*.
-5. **Coroutines Async Detail:** Menggunakan `coroutineScope.launch` dan fungsi `suspend` dengan `delay(1200)` untuk mengambil detail isi teks berita..
+5. **Coroutines Async Detail:** Menggunakan `coroutineScope.launch` dan fungsi `suspend` dengan `delay(120)` untuk mengambil detail isi teks berita..
 
 ## Persyaratan
 
