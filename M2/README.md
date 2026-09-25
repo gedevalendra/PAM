@@ -4,7 +4,7 @@
 -  **NIM     :** 124140142
 -  **Kelas    :** Pengembangan APlikasi Mobile RB
 
-## Fitur yang Diimplementasikan
+## Fitur Yang Telah Diimplementasikan
 
 1. **Flow Simulasi Berita :** Menggunakan `flow {}` dan `delay(2000)` untuk menghasilkan data berita baru secara *asynchronous* setiap 2 detik.
 2. **Filter Kategori:** Menggunakan operator `.filter { .. }` untuk menyaring berita berdasarkan kategori yang dipilih pengguna (Semua, Politik, Kesehatan, Pendidikan, Ekonomi).
@@ -12,7 +12,7 @@
 4. **StateFlow Counter:** Menggunakan `MutableStateFlow` untuk melacak, menyimpan, dan memperbarui jumlah berita yang sudah dibaca secara *real-time*.
 5. **Coroutines Async Detail:** Menggunakan `coroutineScope.launch` dan fungsi `suspend` dengan `delay(1200)` untuk mengambil detail isi teks berita..
 
-## Prasyarat (Prerequisites)
+## Persyaratan
 
 Sebelum menjalankan proyek ini, pastikan sistem Anda telah memiliki:
 * **IDE :** Android Studio.
