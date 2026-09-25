@@ -96,7 +96,7 @@ class NewsViewModel {
     }
 
     suspend fun fetchNewsDetailAsync(id: Int): String {
-        delay(2000)
+        delay(120)
         return "Bupati Gowa Sitti Husniah Talenrang telah ditetapkan sebagai tersangka korupsi terkait kasus pemerasan dan gratifikasi dalam pengurusan izin proses Persetujuan Bangunan Gedung (PBG) tahun 2025-2026. Sitti Husniah diduga memeras pengelola minimarket di Kabupaten Gowa senilai Rp 850 juta dengan dalih dana corporate social responsibility (CSR).\n\n" +
                 "Dirtindak Kortas Tipikor Polri Brigjen Robertus Yohanes De Deo menjelaskan pemerasan terhadap pengelola minimarket tersebut bermula saat pihak pengusaha hendak mengurus izin pembukaan gerai baru di Kabupaten Gowa. Sitti Husniah kemudian memerintahkan pengelola berkoordinasi dengan orang kepercayaannya berinisial HA."
     }
