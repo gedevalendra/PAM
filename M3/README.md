@@ -2,4 +2,4 @@
 
 Berikut adalah hasil tampilan aplikasi My Profile:
 
-<img alt="Screenshot Aplikasi" src="images/aplikasiAndroid.png" width="350"/>
+<img alt="Screenshot Aplikasi" src="images/android.png" width="350"/>
