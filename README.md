@@ -3,10 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,100:81D4FA&height=200&section=header&text=Pengembangan%20Aplikasi%20Mobile&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=IF25-22017%20%7C%20Institut%20Teknologi%20Sumatera&descAlignY=55&descAlign=50&animation=twinkling" width="100%" />
 
   <br/>
-s
-  <!-- Animasi Laut Bergerak -->
-  <img src="https://media.giphy.com/media/l41lPd4A9kEALbQ1a/giphy.gif" width="100%" height="180" style="object-fit: cover; border-radius: 15px; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"/>
-
+  
   <b>Selamat datang di repositori IF25-22017-Pengembangan-Aplikasi-Mobile milik Gede Valendra! 🚀</b>
   <p>Repositori ini didedikasikan untuk menyimpan, melacak, dan mendokumentasikan seluruh perjalanan praktikum, eksplorasi kode, dan pengembangan antarmuka selama mengikuti mata kuliah Pengembangan Aplikasi Mobile.</p>
 
