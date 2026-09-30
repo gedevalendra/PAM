@@ -90,7 +90,7 @@ class NewsViewModel {
                 listOf(value) + accumulator
             }
     }
-
+//asasasasas
     fun markAsRead() {
         _readCount.value += 1
     }
