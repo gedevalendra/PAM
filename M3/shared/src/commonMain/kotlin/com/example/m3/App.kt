@@ -46,7 +46,7 @@ fun MyProfileApp() {
             Spacer(modifier = Modifier.height(32.dp))
 
             ProfileCard(
-                email = "valendradev@example.com",
+                email = "valendradev@gmail.com",
                 phone = "+62 895344462962",
                 location = "Way Huwi, Lampung Selatan, Indonesia"
             )
