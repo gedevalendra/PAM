@@ -4,7 +4,7 @@
 
   <br/>
   
-  <b>Selamat datang di repositori IF25-22017-Pengembangan-Aplikasi-Mobile milik Gede Valendra! 🚀</b>
+  <b>Selamat datang di repositori PRAKTIKUM milik Gede Valendra! 🚀</b>
   <p>Repositori ini didedikasikan untuk menyimpan, melacak, dan mendokumentasikan seluruh perjalanan praktikum, eksplorasi kode, dan pengembangan antarmuka selama mengikuti mata kuliah Pengembangan Aplikasi Mobile.</p>
 
   <p align="center">
