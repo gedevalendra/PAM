@@ -1,0 +1,14 @@
+.gradle/
+.kotlin/
+build/
+*/build/
+.idea/
+local.properties
+*.iml
+.DS_Store
+captures/
+.cxx/
+
+# Solusi hands-on (jawaban) — tidak ikut di-commit, mahasiswa hanya dapat soal latihan
+solusi/
+*-solusi/
